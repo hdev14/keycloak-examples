@@ -1,5 +1,3 @@
-
-
 import Server from './Server';
 
 require('dotenv').config();
