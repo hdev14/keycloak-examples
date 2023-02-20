@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e ts,js,ejs --exec ts-node ./src/index.ts"
+    "start": "nodemon -e ts,js,ejs --exec ts-node ./src/index.ts",
+    "prod": "tsc && cp -r ./src/views ./dist && node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
