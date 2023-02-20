@@ -1,7 +1,8 @@
 
-require('dotenv').config();
 
 import Server from './Server';
+
+require('dotenv').config();
 
 (async function main() {
   const server = new Server();
